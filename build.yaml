@@ -13,9 +13,7 @@
 #
 ---
 include:
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: jorne_left
-  - board: nrfmicro_13
+  - board: nice_nano_v2
     shield: jorne_right
-  - board: nrfmicro_13
-    shield: tester_pro_micro
