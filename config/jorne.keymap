@@ -18,7 +18,7 @@
 
 &mt {
     tapping-term-ms = <350>; // longer tap-hold
-    flavor = "tap-preferred"; // fixed tap-hold
+    flavor = "balanced"; // fixed tap-hold
 };
 
 / {
