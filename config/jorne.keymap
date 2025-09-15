@@ -17,7 +17,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 &mt {
-    tapping-term-ms = <2000>; // longer tap-hold
+    tapping-term-ms = <350>; // longer tap-hold
+    flavor = "tap-preferred"; // fixed tap-hold
 };
 
 / {
