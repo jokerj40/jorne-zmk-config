@@ -25,14 +25,15 @@
             flavor = "tap-preferred";
             tapping-term-ms = <300>;
             bindings = <&kp>, <&kp>;
-            display-name = "LSHIFT/Space";
+            display-name = "Mod-Tap LSHIFT/Space";
         };
 
         my_bs_mt: my_backspace_shift {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
             retro-tap;
             bindings = <&kp>, <&kp>;
             display-name = "Backspace/Shift";
