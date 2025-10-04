@@ -19,13 +19,23 @@
 
 / {
     behaviors {
-        my_mt: mod_tap {
+        my_mt: my_mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <300>;
             bindings = <&kp>, <&kp>;
-            display-name = "Mod-Tap";
+            display-name = "LSHIFT/Space";
+        };
+
+        my_bs_mt: my_backspace_shift {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            retro-tap;
+            bindings = <&kp>, <&kp>;
+            display-name = "Backspace/Shift";
         };
     };
 };
@@ -40,7 +50,7 @@
  &kp LWIN  &kp GRAVE   &kp Q   &kp W      &kp E            &kp R      &kp T      &kp Y           &kp U      &kp I    &kp O     &kp P       &kp LBKT  &mt RWIN RBKT
            &kp LCTRL   &kp A   &kp S      &kp D            &kp F      &kp G      &kp H           &kp J      &kp K    &kp L  &kp SEMI  &mt RCTRL SQT
             &kp LALT   &kp Z   &kp X      &kp C            &kp V      &kp B      &kp N           &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp BSLH
-                                      &lt 2 TAB  &my_mt LSHFT SPACE  &lt 1 RET  &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL
+                                      &lt 2 TAB  &my_mt LSHFT SPACE  &lt 1 RET  &lt 1 ESC  &my_bs_mt RSHFT BSPC  &lt 2 DEL
             >;
         };
 
