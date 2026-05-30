@@ -64,10 +64,10 @@
 
         layer_raise {
             bindings = <
-&trans  &kp C_VOL_UP           &kp F1  &kp F2  &kp F3  &kp F4  &kp F5     &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &kp F11    &mt RGUI F12
-        &mt LCTRL C_MUTE       &none   &none   &none   &none   &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none    &kp PSCRN
-        &mt LEFT_ALT C_VOL_DN  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &kp N6          &kp N7          &kp N8        &kp N9           &kp N0   &kp CAPS
-                                               &trans  &trans  &lt 3 RET  &lt 3 ESC       &trans          &trans
+&trans  &kp C_VOL_UP           &kp F1  &kp F2    &kp F3       &kp F4         &kp F5     &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &kp F11    &mt RGUI F12
+        &mt LCTRL C_MUTE       &none   &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none    &kp PSCRN
+        &mt LEFT_ALT C_VOL_DN  &kp N1  &kp N2    &kp N3       &kp N4         &kp N5     &kp N6          &kp N7          &kp N8        &kp N9           &kp N0   &kp CAPS
+                                                 &trans       &trans         &lt 3 RET  &lt 3 ESC       &trans          &trans
             >;
         };
 
