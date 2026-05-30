@@ -55,10 +55,10 @@
 
         layer_lower {
             bindings = <
-&trans  &kp TILDE        &none     &none   &kp HASH   &kp DLLR  &kp PLUS   &none     &kp AMPS  &kp MINUS  &none     &none         &none          &trans
-        &mt LCTRL CARET  &kp EXCL  &kp AT  &kp LPAR   &kp LBRC  &kp PRCNT  &kp STAR  &kp RBRC  &kp RPAR   &kp PIPE  &kp COLON     &mt RCTRL DQT
-        &mt LALT EQUAL   &none     &kp LT  &none      &none     &kp UNDER  &none     &none     &none      &kp GT    &kp QUESTION  &none
-                                           &lt 3 TAB  &trans    &trans     &trans    &trans    &lt 3 DEL
+&trans  &kp TILDE        &none     &none   &kp HASH   &kp DLLR  &kp PLUS   &kp BACKSLASH  &kp AMPS  &kp MINUS  &none     &none         &none          &trans
+        &mt LCTRL CARET  &kp EXCL  &kp AT  &kp LPAR   &kp LBRC  &kp PRCNT  &kp STAR       &kp RBRC  &kp RPAR   &kp PIPE  &kp COLON     &mt RCTRL DQT
+        &mt LALT EQUAL   &none     &kp LT  &none      &none     &kp UNDER  &kp SLASH      &none     &none      &kp GT    &kp QUESTION  &none
+                                           &lt 3 TAB  &trans    &trans     &trans         &trans    &lt 3 DEL
             >;
         };
 
